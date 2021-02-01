@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_SampleKeychainSharing_SampleKeychainSharingUITests : NSObject
+@end
+@implementation PodsDummy_Pods_SampleKeychainSharing_SampleKeychainSharingUITests
+@end

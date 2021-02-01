@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0B2C556285B7677965E55B /* Pods_SampleKeychainSharingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C838175E862101B0EB902AC /* Pods_SampleKeychainSharingTests.framework */; };
 		620396BB25C3F1160087DD18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620396BA25C3F1160087DD18 /* AppDelegate.swift */; };
 		620396BD25C3F1160087DD18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620396BC25C3F1160087DD18 /* SceneDelegate.swift */; };
 		620396BF25C3F1160087DD18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620396BE25C3F1160087DD18 /* ViewController.swift */; };
@@ -15,6 +16,9 @@
 		620396C725C3F1180087DD18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620396C525C3F1180087DD18 /* LaunchScreen.storyboard */; };
 		620396D225C3F1180087DD18 /* SampleKeychainSharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620396D125C3F1180087DD18 /* SampleKeychainSharingTests.swift */; };
 		620396DD25C3F1180087DD18 /* SampleKeychainSharingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620396DC25C3F1180087DD18 /* SampleKeychainSharingUITests.swift */; };
+		620396EE25C3F2FC0087DD18 /* KeychainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620396ED25C3F2FC0087DD18 /* KeychainViewModel.swift */; };
+		63B243BDA66730A1155AA881 /* Pods_SampleKeychainSharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847E5EE0A84423201078B34D /* Pods_SampleKeychainSharing.framework */; };
+		B2C6349313E2A01268C5C795 /* Pods_SampleKeychainSharing_SampleKeychainSharingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB69AB9809596D028DA04E1 /* Pods_SampleKeychainSharing_SampleKeychainSharingUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C838175E862101B0EB902AC /* Pods_SampleKeychainSharingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleKeychainSharingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19FA2404FC458118E3D25BAF /* Pods-SampleKeychainSharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleKeychainSharing.release.xcconfig"; path = "Target Support Files/Pods-SampleKeychainSharing/Pods-SampleKeychainSharing.release.xcconfig"; sourceTree = "<group>"; };
+		2373944A5799EF6A8E629B16 /* Pods-SampleKeychainSharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleKeychainSharing.debug.xcconfig"; path = "Target Support Files/Pods-SampleKeychainSharing/Pods-SampleKeychainSharing.debug.xcconfig"; sourceTree = "<group>"; };
+		4603ED3FC990A439DF8A9B67 /* Pods-SampleKeychainSharing-SampleKeychainSharingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleKeychainSharing-SampleKeychainSharingUITests.release.xcconfig"; path = "Target Support Files/Pods-SampleKeychainSharing-SampleKeychainSharingUITests/Pods-SampleKeychainSharing-SampleKeychainSharingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		620396B725C3F1160087DD18 /* SampleKeychainSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleKeychainSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		620396BA25C3F1160087DD18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		620396BC25C3F1160087DD18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,13 @@
 		620396D825C3F1180087DD18 /* SampleKeychainSharingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleKeychainSharingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		620396DC25C3F1180087DD18 /* SampleKeychainSharingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleKeychainSharingUITests.swift; sourceTree = "<group>"; };
 		620396DE25C3F1180087DD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		620396ED25C3F2FC0087DD18 /* KeychainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainViewModel.swift; sourceTree = "<group>"; };
+		620396FF25C3F4A70087DD18 /* SampleKeychainSharing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleKeychainSharing.entitlements; sourceTree = "<group>"; };
+		6CB69AB9809596D028DA04E1 /* Pods_SampleKeychainSharing_SampleKeychainSharingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleKeychainSharing_SampleKeychainSharingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72117D4B7ED89E8914E369A2 /* Pods-SampleKeychainSharingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleKeychainSharingTests.debug.xcconfig"; path = "Target Support Files/Pods-SampleKeychainSharingTests/Pods-SampleKeychainSharingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		847E5EE0A84423201078B34D /* Pods_SampleKeychainSharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleKeychainSharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E27108D83689541AA8F720F /* Pods-SampleKeychainSharing-SampleKeychainSharingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleKeychainSharing-SampleKeychainSharingUITests.debug.xcconfig"; path = "Target Support Files/Pods-SampleKeychainSharing-SampleKeychainSharingUITests/Pods-SampleKeychainSharing-SampleKeychainSharingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C26A33FBF9676A911C4EB9DD /* Pods-SampleKeychainSharingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleKeychainSharingTests.release.xcconfig"; path = "Target Support Files/Pods-SampleKeychainSharingTests/Pods-SampleKeychainSharingTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63B243BDA66730A1155AA881 /* Pods_SampleKeychainSharing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F0B2C556285B7677965E55B /* Pods_SampleKeychainSharingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2C6349313E2A01268C5C795 /* Pods_SampleKeychainSharing_SampleKeychainSharingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +101,8 @@
 				620396D025C3F1180087DD18 /* SampleKeychainSharingTests */,
 				620396DB25C3F1180087DD18 /* SampleKeychainSharingUITests */,
 				620396B825C3F1160087DD18 /* Products */,
+				9710C5D181190EF851424F38 /* Pods */,
+				D4E300FA7844B328B9AF33B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +119,11 @@
 		620396B925C3F1160087DD18 /* SampleKeychainSharing */ = {
 			isa = PBXGroup;
 			children = (
+				620396FF25C3F4A70087DD18 /* SampleKeychainSharing.entitlements */,
 				620396BA25C3F1160087DD18 /* AppDelegate.swift */,
 				620396BC25C3F1160087DD18 /* SceneDelegate.swift */,
 				620396BE25C3F1160087DD18 /* ViewController.swift */,
+				620396ED25C3F2FC0087DD18 /* KeychainViewModel.swift */,
 				620396C025C3F1160087DD18 /* Main.storyboard */,
 				620396C325C3F1180087DD18 /* Assets.xcassets */,
 				620396C525C3F1180087DD18 /* LaunchScreen.storyboard */,
@@ -128,6 +150,29 @@
 			path = SampleKeychainSharingUITests;
 			sourceTree = "<group>";
 		};
+		9710C5D181190EF851424F38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2373944A5799EF6A8E629B16 /* Pods-SampleKeychainSharing.debug.xcconfig */,
+				19FA2404FC458118E3D25BAF /* Pods-SampleKeychainSharing.release.xcconfig */,
+				9E27108D83689541AA8F720F /* Pods-SampleKeychainSharing-SampleKeychainSharingUITests.debug.xcconfig */,
+				4603ED3FC990A439DF8A9B67 /* Pods-SampleKeychainSharing-SampleKeychainSharingUITests.release.xcconfig */,
+				72117D4B7ED89E8914E369A2 /* Pods-SampleKeychainSharingTests.debug.xcconfig */,
+				C26A33FBF9676A911C4EB9DD /* Pods-SampleKeychainSharingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D4E300FA7844B328B9AF33B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				847E5EE0A84423201078B34D /* Pods_SampleKeychainSharing.framework */,
+				6CB69AB9809596D028DA04E1 /* Pods_SampleKeychainSharing_SampleKeychainSharingUITests.framework */,
+				0C838175E862101B0EB902AC /* Pods_SampleKeychainSharingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 620396E125C3F1180087DD18 /* Build configuration list for PBXNativeTarget "SampleKeychainSharing" */;
 			buildPhases = (
+				E4ED6E6D0F169B979EED21B4 /* [CP] Check Pods Manifest.lock */,
 				620396B325C3F1160087DD18 /* Sources */,
 				620396B425C3F1160087DD18 /* Frameworks */,
 				620396B525C3F1160087DD18 /* Resources */,
+				A76055FC5EF9503C90BF8AF6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 620396E425C3F1180087DD18 /* Build configuration list for PBXNativeTarget "SampleKeychainSharingTests" */;
 			buildPhases = (
+				DE16BF5DE144C4CFAB42682C /* [CP] Check Pods Manifest.lock */,
 				620396C925C3F1180087DD18 /* Sources */,
 				620396CA25C3F1180087DD18 /* Frameworks */,
 				620396CB25C3F1180087DD18 /* Resources */,
@@ -170,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 620396E725C3F1180087DD18 /* Build configuration list for PBXNativeTarget "SampleKeychainSharingUITests" */;
 			buildPhases = (
+				063ECC29F35422ED92FE3E43 /* [CP] Check Pods Manifest.lock */,
 				620396D425C3F1180087DD18 /* Sources */,
 				620396D525C3F1180087DD18 /* Frameworks */,
 				620396D625C3F1180087DD18 /* Resources */,
+				84F3C835EC7B2C8C18BE4706 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +303,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		063ECC29F35422ED92FE3E43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleKeychainSharing-SampleKeychainSharingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84F3C835EC7B2C8C18BE4706 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleKeychainSharing-SampleKeychainSharingUITests/Pods-SampleKeychainSharing-SampleKeychainSharingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleKeychainSharing-SampleKeychainSharingUITests/Pods-SampleKeychainSharing-SampleKeychainSharingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleKeychainSharing-SampleKeychainSharingUITests/Pods-SampleKeychainSharing-SampleKeychainSharingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A76055FC5EF9503C90BF8AF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleKeychainSharing/Pods-SampleKeychainSharing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleKeychainSharing/Pods-SampleKeychainSharing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleKeychainSharing/Pods-SampleKeychainSharing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE16BF5DE144C4CFAB42682C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleKeychainSharingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4ED6E6D0F169B979EED21B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleKeychainSharing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		620396B325C3F1160087DD18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,6 +413,7 @@
 			files = (
 				620396BF25C3F1160087DD18 /* ViewController.swift in Sources */,
 				620396BB25C3F1160087DD18 /* AppDelegate.swift in Sources */,
+				620396EE25C3F2FC0087DD18 /* KeychainViewModel.swift in Sources */,
 				620396BD25C3F1160087DD18 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,12 +587,15 @@
 		};
 		620396E225C3F1180087DD18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2373944A5799EF6A8E629B16 /* Pods-SampleKeychainSharing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SampleKeychainSharing/SampleKeychainSharing.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T36PKL4C35;
 				INFOPLIST_FILE = SampleKeychainSharing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,12 +609,15 @@
 		};
 		620396E325C3F1180087DD18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19FA2404FC458118E3D25BAF /* Pods-SampleKeychainSharing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SampleKeychainSharing/SampleKeychainSharing.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T36PKL4C35;
 				INFOPLIST_FILE = SampleKeychainSharing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +631,7 @@
 		};
 		620396E525C3F1180087DD18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72117D4B7ED89E8914E369A2 /* Pods-SampleKeychainSharingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +654,7 @@
 		};
 		620396E625C3F1180087DD18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26A33FBF9676A911C4EB9DD /* Pods-SampleKeychainSharingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +677,7 @@
 		};
 		620396E825C3F1180087DD18 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E27108D83689541AA8F720F /* Pods-SampleKeychainSharing-SampleKeychainSharingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +698,7 @@
 		};
 		620396E925C3F1180087DD18 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4603ED3FC990A439DF8A9B67 /* Pods-SampleKeychainSharing-SampleKeychainSharingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
